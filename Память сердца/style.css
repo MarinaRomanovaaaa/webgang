@@ -1,0 +1,275 @@
+*
+{
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline:thistle;}
+a:focus,a:active{outline: white;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+ul li{
+margin:0;
+padding:0;
+display:block;}
+body
+
+  
+   
+.page1 
+ {
+        background-image: url('img/фото\ солдаты\ главная.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 100vh;
+      } 
+
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+justify-content: center;
+align-items: center ;
+}
+.aa{
+    color: #000000;
+}
+.aa:hover{
+    color:#86280b;
+    text-decoration:underline;
+    }
+    .En:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+     
+        }
+
+        .Bel:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+         
+            }
+            .share:hover {
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+             
+                }
+
+.imge:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+.menu-list {
+display: flex;
+font-family: 'Cormorant SC';
+text-shadow: 2px 2px 8px;
+font-weight: 500;
+font-size: 24px;
+line-height: 27px;
+letter-spacing: 0.06em;
+
+}
+.menu-list_item{
+text-decoration: none;
+margin-right: 40px;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20vh;
+    animation-name: flicker;
+}
+.nextbutton {
+
+    text-align: center;
+   padding-top: 10vh;
+    
+    }
+    .img1 {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;}
+      
+      .img1:hover {
+      -webkit-filter: contrast(185%);}
+      
+    .page2{
+        color: black;
+     
+     
+            background-image: url('img/Frame\ 2.png');
+             background-repeat: no-repeat;
+             background-size: cover;
+             min-height: 100vh;
+            
+          } 
+    
+ .years{
+          display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.years {
+	background-image: url('img/image024-10.gif');
+  background-size:contain ;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 145px;
+  font-weight: 10000;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+        width: 1230px;
+        margin: 0 auto;
+    }
+    .book{
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+    
+
+
+   
+    .text1{
+      position: absolute;
+      padding-left: 54%;
+      padding-right: 3%;
+      padding-top: 12%;
+      font-weight: 500;
+     font-style: normal;
+
+     Line-height:34,99px;
+     Letter-spacing:3.5%;
+     font-family: 'Bad Script'; 
+     Line-height:30px;
+     font-Size: 23px;
+     animation-duration: 4s;
+     animation-name: fadeIn;
+     
+    }
+    @keyframes fadeIn{
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+
+    .text2{
+      position: absolute;
+      padding-left: 54%;
+      padding-right: 5%;
+      padding-top: 29%;
+      font-weight: 500;
+      font-style: normal;
+ 
+      Line-height:34,99px;
+      Letter-spacing:3.5%;
+      font-family: 'Bad Script'; 
+      Line-height:30px;
+      font-Size: 24px;
+      text-align: center; 
+      animation-duration: 4s;
+      animation-name: fadeIn;
+      
+    }
+    @keyframes fadeIn{
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+    .text3{
+      position: absolute;
+      padding-left: 54%;
+      padding-right: 5%;
+      padding-top: 48%;
+      font-weight: 500;
+      font-style: normal;
+ 
+      Line-height:34,99px;
+      Letter-spacing:3.5%;
+      font-family: 'Bad Script'; 
+      Line-height:30px;
+      font-Size: 24px;
+      animation-duration: 4s;
+      animation-name: fadeIn;
+    }
+    @keyframes fadeIn{
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+    .list2{
+        display: flex;
+flex-direction: column;
+    }
+    .text4{
+
+        position: absolute;
+        padding-left: 2%;
+       padding-right: 75%;
+        padding-top:42%;
+        font-weight: 500;
+        font-style: normal;
+   
+        Line-height:34,99px;
+        Letter-spacing:3.5%;
+        font-family: 'Bad Script'; 
+        Line-height:30px;
+        font-Size: 18px;
+        color: #000000;
+
+transform: rotate(-16.28deg);
+        animation-duration: 4s;
+        animation-name: fadeIn;  
+    }
+    @keyframes fadeIn{
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+
+
+
+
+
+
+
